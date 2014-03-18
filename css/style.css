@@ -2,18 +2,13 @@
 
 @font-face{font-family:'FontAwesome';src:url('font/fontawesome-webfont.eot?v=4.0.1');src:url('font/fontawesome-webfont.eot?#iefix&v=4.0.1') format('embedded-opentype'),url('font/fontawesome-webfont.woff?v=4.0.1') format('woff'),url('font/fontawesome-webfont.ttf?v=4.0.1') format('truetype'),url('font/fontawesome-webfont.svg?v=4.0.1#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}
 
-/*
-	Strongly Typed 1.1 by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
 
 	body
-	{
+	
 		background: #f0f0f0;
 	}
 
@@ -30,6 +25,17 @@
 		color: #888;
 	}
 	
+	h2.black
+	{
+		color: #000;
+	}
+	
+	.style2 strong
+	{
+		color: #000;
+	}
+	
+
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
 		{
 			color: inherit;
@@ -211,6 +217,23 @@
 			{
 				margin-top: 0;
 			}
+
+			ul.style2
+			{
+				list-style: disc;
+				margin-left: 7em;
+				margin-top: 2em;
+			}
+			
+				ul.style2 li
+				{
+					padding-left: 0.5em;
+				}
+
+				ul.style2 li:first-child
+				{
+					margin-top: 0;
+				}
 
 		ul.links
 		{
@@ -1011,7 +1034,7 @@
 	{
 		position: relative;
 		overflow: hidden;
-		background: #fff;
+		background: #f0f0f0;
 	}
 	
 	#footer-wrapper
@@ -1020,6 +1043,12 @@
 		overflow: hidden;
 		border-top: solid 2px #e5e5e5;
 		background: #f0f0f0;
+	}
+	
+	#second-wrapper
+	{
+		position: relative;
+		overflow: hidden;
 	}
 	
 		#footer-wrapper form input.text,
